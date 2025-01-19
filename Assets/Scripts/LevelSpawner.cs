@@ -97,6 +97,6 @@ public class LevelSpawner : MonoBehaviour
     public void IncreaseTheLevel()
     {
         PlayerPrefs.SetInt("Level", PlayerPrefs.GetInt("Level") + 1);
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
 }
